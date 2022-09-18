@@ -39,6 +39,26 @@ public class Main {
 		}
 		System.out.println("While Tek sayılar bitti\n");
 		
+		int x=1;
+		do {
+			System.out.println(x);
+			x++;
+		} while (x<10);
+		System.out.println("Do While döngüsü bitti\n");
+		
+		int y=2;
+		do {
+			System.out.println(y);
+			y+=2;
+		} while (y<10);
+		System.out.println("Do While Çift sayılar bitti\n");
+		
+		int z=1;
+		do {
+			System.out.println(z);
+			z+=2;
+		} while (z<10);
+		System.out.println("Do While Tek sayılar bitti\n");
 	}
 
 }
