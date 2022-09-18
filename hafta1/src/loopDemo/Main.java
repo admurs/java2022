@@ -3,6 +3,8 @@ package loopDemo;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		// FOR LOOP
 		for (int i = 1; i < 10; i++) {
 			System.out.println(i);
 		}
@@ -18,6 +20,7 @@ public class Main {
 		}
 		System.out.println("For Çift sayılar bitti\n");
 		
+		// WHILE LOOP
 		int i=1;
 		while (i<10) {
 			System.out.println(i);
@@ -39,6 +42,7 @@ public class Main {
 		}
 		System.out.println("While Tek sayılar bitti\n");
 		
+		//DO WHILE LOOP
 		int x=1;
 		do {
 			System.out.println(x);
@@ -59,6 +63,13 @@ public class Main {
 			z+=2;
 		} while (z<10);
 		System.out.println("Do While Tek sayılar bitti\n");
+		
+		int t=100;
+		do {
+			System.out.println(t);
+			t+=2;
+		} while (t<10);
+		System.out.println("Do While Tek sefer çalış\n");
 	}
 
 }
