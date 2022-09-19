@@ -3,7 +3,7 @@ package mukemmelSayi;
 public class Main {
 
 	public static void main(String[] args) {
-		int sayi=28;
+		int sayi=27;
 		int toplam=0;
 		
 		for (int i = 1; i < sayi; i++) {
