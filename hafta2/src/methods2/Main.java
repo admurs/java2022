@@ -7,7 +7,7 @@ public class Main {
 		String yeniMesaj=sehirVer();
 		System.out.println(yeniMesaj);
 		int sayi=topla(7,5);
-		System.out.println(sayi);
+		System.out.println(sayi);//
 
 	}
 	
