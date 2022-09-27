@@ -9,7 +9,7 @@ public class Main {
 		product1.setUnitPrice(7500);
 		product1.setUnitsInStock(3);
 		product1.setImageUrl("image1.jpg");
-//
+
 		
 		Product product2 = new Product();
 		product2.setName("S�tl� Kahve Makinesi");

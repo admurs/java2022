@@ -10,7 +10,7 @@ public class Main {
 		System.out.println(sayi);
 		int toplam = toplam(1,3,5,7,9);
 		System.out.println(toplam);
-
+//
 	}
 	
 	public static void ekle() {
