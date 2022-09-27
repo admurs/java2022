@@ -9,10 +9,10 @@ public class Main {
 		product1.setUnitPrice(7500);
 		product1.setUnitsInStock(3);
 		product1.setImageUrl("image1.jpg");
-
+//
 		
 		Product product2 = new Product();
-		product2.setName("Sütlü Kahve Makinesi");
+		product2.setName("Sï¿½tlï¿½ Kahve Makinesi");
 		product2.setDiscount(7);
 		product2.setUnitPrice(7500);
 		product2.setUnitsInStock(3);
