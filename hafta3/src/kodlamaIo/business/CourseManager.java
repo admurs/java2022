@@ -18,6 +18,9 @@ public class CourseManager {
 		if (course.getPrice()<=0) {
 			throw new Exception("Kurs tutarı 0 dan küçük olamaz"); 
 		}
+		if (course.getName()=="JAVA") {
+			throw new Exception(course.getName() +" kursu mevcuttur."); 
+		}
 		System.out.println("Kurs Eklendi");
 		courseDao.add(course);
 		for (Logger logger : loggers) {
